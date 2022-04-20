@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 400;
+    /* font-size: 24px; */
+}
+.App{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: flex-start;
+    background-color: #e7ebe7;
+background-image: linear-gradient(75deg, #F6E7D8 0%, #f1efeb 100%);
+
+}
+
+@media screen and (max-width:600px){
+    .App{
+        flex-direction: column;
+    }
+}
